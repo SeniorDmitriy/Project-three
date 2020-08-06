@@ -1,0 +1,270 @@
+@media (max-width: 1150px) {
+    .service__content-inner {
+        display: block;
+    }
+
+    .service__card {
+        max-width: 100%;
+        margin: 20px 0;
+        padding: 10px 0;
+    }
+
+    .consultation__inner {
+        background-image: none;
+    }
+
+    .form__box {
+        max-width: 100%;
+    }
+
+    .form__box-inner {
+        display: block;
+    }
+
+    .form__left {
+        max-width: 100%;
+    }
+
+    .form__right {
+        max-width: 100%;
+    }
+
+    .form__btn {
+        display: block;
+        margin-left: auto;
+        float: none;
+    }
+
+    .advent__inner {
+        display: block;
+    }
+
+    .advent__item {
+        max-width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .advent__item:last-child {
+        margin-bottom: 0;
+    }
+
+    .news{
+    	    padding: 65px 0 75px;
+    }
+
+    .news__inner {
+        display: block;
+    }
+
+    .news__slider {
+        max-width: 100%;
+        margin-bottom: 90px;
+    }
+
+    .news__items {
+        max-width: 100%;
+        margin-bottom: 30px;
+        display: block;
+    }
+
+    .news__items:last-child {
+        margin-bottom: 0;
+    }
+
+    .news__items:after {
+        content: '';
+        clear: both;
+        display: block;
+    }
+
+    .news__img {
+        float: left;
+        margin-right: 20px;
+    }
+
+    .footer__inner{
+    	display: block;
+    }
+
+    .footer__map{
+	max-width: 100%;
+    }
+
+    .footer__inner .list__items{
+    	display: block;
+    }
+
+    .footer__left{
+    	max-width: 500px;
+    	margin-bottom: 20px;
+    }
+
+
+}
+
+@media (max-width: 850px) {
+    .info__inner {
+        display: block;
+    }
+
+    .info__block {
+        padding-left: 0;
+    }
+
+    .title::before {
+        display: none;
+    }
+
+    .info-link {
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header__top {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    .header__btn-link {
+        max-width: 100%;
+        display: flex;
+        float: none;
+        justify-content: center;
+    }
+
+    .header__top-inner {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .header__link {
+        font-size: 15px;
+    }
+
+    .header__link-phone {
+        margin-right: 0;
+        padding-left: 10px;
+    }
+
+    .header__link-phone:before,
+    .header__link-email:before {
+        left: 10%;
+    }
+
+    .header__btn-link {
+        margin-top: 10px;
+    }
+
+    .header__btn-menu {
+        display: block;
+        font-size: 28px;
+    }
+
+    .list__item {
+        display: none;
+        font-size: 28px;
+        position: absolute;
+        left: 0;
+        right: 0;
+        margin-top: 20px;
+        z-index: 50;
+    }
+
+    .list__items {
+        display: block;
+        text-align: center;
+        margin-top: 0;
+    }
+
+    .list__item-link {
+        display: block;
+        background-color: #ffc222;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+        line-height: 40px;
+
+    }
+
+    .list__item li+li {
+        padding-left: 0;
+    }
+
+    .slider__inner .slick__btn {
+        display: none !important;
+    }
+
+     .footer__inner .list__items{
+    	text-align: start;
+    	margin-top: 15px;
+    }
+
+}
+
+@media (max-width: 548px) {
+    .news__slider {
+       padding: 45px 40px 30px 40px;
+    }
+
+    .news__slider__inner .slick-next{
+    	right: -40px;
+    }
+
+    .news__slider__inner .slick-prev{
+    	right: 35px;
+    }
+
+    .news__slider__inner .slick__btn{
+    	bottom: -95px;
+    }
+
+    .news__img{
+    	float: none;
+    	margin-right: 0;
+    }
+}
+
+
+@media (max-width: 370px){
+	.news__slider{
+		    padding: 40px 20px 20px 40px;
+	}
+
+	.news__slider:before{
+		    width: 58px;
+    	height: 25px;
+    	font-size: 15px;
+	}
+
+	.news__slider-title{
+		font-size: 16px;
+		line-height: 20px;
+	}
+
+	.news__slider-text{
+		margin: 20px 0 20px;
+	}
+
+	.news__slider__inner .slick__btn{
+		bottom: -80px;
+	}
+
+	.news__slider__inner .slick-next{
+		right: -20px;
+	}
+
+	.news__slider__inner .slick-prev{
+		right: 60px;
+	}
+}
+
+
+
+@media (min-width: 768px) {
+    .list__item {
+        display: block;
+    }
+}
